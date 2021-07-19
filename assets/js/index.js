@@ -111,3 +111,27 @@
 // }
 
 
+// *** ВОЗВЕДЕНИЕ В СТЕПЕНЬ------------------------------------------
+
+// const calculationDegree = function(number, degree){
+//   if (isNaN(number) || isNaN(degree)){
+//     return null;
+//   }
+//   if (degree === 0){
+//     return 1;
+//   }
+//   if (degree >= 1){
+//     let result = 1;
+//     for(let i=0; i < degree; i++){
+//       result *= number;
+//     }
+//     return result;
+//   }
+//   if (degree < 0){
+//     let result = 1;
+//     for(let i=0; i > degree; i--){
+//       result /= number;
+//     }
+//     return result;
+//   }
+// }
