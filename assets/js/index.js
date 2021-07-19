@@ -31,7 +31,7 @@
 //   }
 // }
 
-// 3. ФУНКЦИЯ ПРОВЕРКИ ВОЗМОЖНОСТИ СОЗДАНИЯ ТРЕУГОЛЬНИКА
+// 3. ФУНКЦИЯ ПРОВЕРКИ ВОЗМОЖНОСТИ СОЗДАНИЯ ТРЕУГОЛЬНИКА--------------
 
 // const checkTrianglePossibility = function(length1, length2, length3){
 //   if (isNaN(length1) || isNaN(length2) || isNaN(length3)){
@@ -46,3 +46,36 @@
 //     return false;
 //   }
 // }
+
+// 4. ФУНКЦИИ РАСЧЕТА ПЛОЩАДЕЙ (ПОВЕРХНОСТИ)--------------------------
+
+// 4.1 Ромб----------------------
+
+// let areaRhombus;
+// const calculationAreaRhombus = function(diagonal1, diagonal2){
+//   if (isNaN(diagonal1) || isNaN(diagonal2)){
+//     return areaRhombus=null;
+//   }
+//   if (diagonal2<=0 || diagonal1<=0){
+//     return areaRhombus=null;
+//   }
+//   areaRhombus = 0.5*diagonal1*diagonal2;
+//   return areaRhombus;
+// }
+
+// 4.2 Цилиндр -------------------
+
+// let areaCylinder;
+// const calculationAreaRhombus = function(radius, height){
+//   if (isNaN(radius) || isNaN(height)){
+//     return areaCylinder=null;
+//   }
+//   if (radius<=0 || height<=0){
+//     return areaCylinder=null;
+//   }
+//   areaCylinder = 2*3.14*radius*(radius+height);
+//   return areaCylinder;
+// }
+
+
+
